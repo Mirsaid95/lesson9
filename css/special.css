@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.section-box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border: 1px solid blue;
+}
+.offers-box{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+
+}
+.offer-text{
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0px;
+    p{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 50px;
+    }
+}
+
+.spacial-box{
+    width: 24%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+
+}
+.photo img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text-box h1{
+    font-size: 34px;
+}
+.text-box p {
+    font-size: 25px;
+    
+}
+h5{
+    font-size: 25px;
+}
+.icon{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.fa-thumbtack{
+    color: rgba(190, 22, 22, 0.753);
+}
+.fa-star{
+    color: gold;
+}
+.nextpage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.nextpage a{
+    padding: 20px 30px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    color: white;
+    background-color: green;
+    font-weight: 300;
+    
+}
